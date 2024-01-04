@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name" translatable="false">Hypatia</string>
+    <string name="app_copyright">Copyright 2017-2023 Divested Computing Group</string>
     <string name="app_license">Licencia: GPL-3.0</string>
     <string name="app_version">Versión: %s</string>
     <string name="app_db_type_clamav">Potenciada por firmas al estilo de ClamAV</string>
@@ -46,6 +48,32 @@
     <string name="main_scanning_done">¡Escaneo completado en %s segundos @ %sMB/s!</string>
     <string name="main_files_scanned_count">%s archivos escaneados</string>
     <string name="scan_control">Control de escaneo</string>
-    <string name="lblScanRunning">Saltarse la acción, ¡se está ejecutando un escaneo!</string>
+    <string name="lblScanRunning">Omitiendo la acción, ¡se está ejecutando un escaneo!</string>
     <string name="lblSigningKey">Clave de firma de BBDD</string>
+    <string name="lblNoNetwork">¡No hay red conectada!</string>
+    <string name="self_test_result_success">Autotest correcto.</string>
+    <string name="self_test_result_failure">¡Autotest fallido!</string>
+    <string name="lblDatabaseLoading">Omitiendo la acción, ¡la base de datos se está cargando!</string>
+    <string name="lblDatabasesUpdated">¡Todas las bases de datos actualizadas!</string>
+    <string name="lookupVT">Consultar</string>
+    <string name="deleteFile">Borrar</string>
+    <string name="deleted">¡Borrado!</string>
+    <string name="ignoreDetection">Ignorar</string>
+    <string name="detections_none">No se encontraron coincidencias :)</string>
+    <string name="detections_found">¡Encontradas coincidencias! :(</string>
+    <string name="confirm_lookup_title">Confirmar consulta</string>
+    <string name="confirm_lookup_summary">¿Está seguro que desea abrir VirusTotal.com en su navegador web con el siguiente hash?</string>
+    <string name="confirm_delete_title">Confirmar borrado</string>
+    <string name="confirm_delete_summary">¿Está seguro que desea borrar el siguiente archivo?</string>
+    <string name="delete_failed">¡No se pudo borrar!</string>
+    <string name="ignored">¡Ignorado!</string>
+    <string name="uninstallApp">Desinstalar</string>
+    <string name="lblSelfTest">Escribir archivos de autotest</string>
+    <string name="lblExtendedDatabaseToggle">Base de datos ampliada</string>
+    <string name="confirm_extended_title">¿Habilitar la base de datos ampliada?</string>
+    <string name="confirm_extended_summary">[EXPERIMENTAL]\nEsto permitirá la detección de ~40 millones de firmas adicionales.\nEsto requiere una descarga de 125 MB, ralentizará el inicio en más de dos minutos, aumentará el uso de RAM de la aplicación y podría aumentar la tasa de falsos positivos.\nEsta base de datos sólo se actualiza trimestralmente.</string>
+    <string name="confirm_update_title">Confirmar descarga</string>
+    <string name="confirm_update_summary">Parece que tiene una conexión de datos móviles. ¿Está seguro que desea actualizar \nlas bases de datos? Puede descargar hasta %s megabytes de datos.</string>
+    <string name="lblUpdateRunning">Omitiendo la acción, ¡se está ejecutando una actualización!</string>
+    <string name="lblWroteTestFiles">¡Archivos de autotest escritos!</string>
 </resources>
